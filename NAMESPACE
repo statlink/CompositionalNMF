@@ -1,0 +1,17 @@
+#useDynLib(Compositional, .registration = TRUE)
+
+importFrom("Compositional", ternary, pyramid)
+importFrom("Rfast", rowsums, rowMaxs, Log)
+importFrom("rangen", Runif)
+importFrom("stats", median, sd, kmeans)
+importFrom("quadprog", solve.QP)
+importFrom("Matrix", nearPD, colSums, sparseMatrix, Diagonal, bdiag)
+importFrom("nnsolve", fnnls)
+importFrom("osqp", solve_osqp, osqpSettings)
+importFrom("sparcl", KMeansSparseCluster)
+importFrom("graphics", axis)
+import("parallel")
+
+exportPattern("^[[:alpha:]]+")
+exportPattern("^[^\\.]")
+

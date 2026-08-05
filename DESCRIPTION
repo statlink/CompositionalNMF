@@ -1,0 +1,14 @@
+Package: CompositionalNMF
+Type: Package
+Title: Nonnegative Matrix Factorization with Compositional Data  
+Version: 1.0
+Date: 2026-08-05
+Authors@R: person("Michail", "Tsagris", role = c("aut", "cre"), email = "mtsagris@uoc.gr")
+Author: Michail Tsagris [aut, cre]
+Maintainer: Michail Tsagris <mtsagris@uoc.gr>
+Depends: R (>= 4.0)
+Imports: Compositional, graphics, Matrix, nnsolve, osqp, parallel, quadprog, rangen, Rfast, sparcl, stats
+Suggests: Rfast2
+Description: Nonegative matrix factorization (NMF) with simplicial constraints using many algorithms is implemented. Parallel computing is an option to enhance the speed and high-dimensional and large scale (and/or sparse) data are allowed. These techniques are used for dimensionality reduction with simplicial (compositional) data. Relevant papers include: Cutler and Breiman (1994), <doi:10.1080/00401706.1994.10485840> and Wang, Yang, Qin and Zha (2008), <doi:10.1145/1390156.1390298>.  
+License: GPL (>= 2)
+
